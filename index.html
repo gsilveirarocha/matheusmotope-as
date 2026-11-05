@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Motopeças e Mecânica | Vila Velha - ES</title>
+    
+    <!-- Favicon (Ícone do navegador) -->
+    <link rel="icon" href="img/capacetelogo.png" type="image/png">
+    
+    <!-- SEO & Meta Tags -->
+    <meta name="description" content="Manutenção especializada de motocicletas, revisões preventivas completas e venda de peças em Vila Velha - ES. Agende seu serviço via WhatsApp.">
+    <meta name="keywords" content="oficina de moto, motopeças, manutenção de motos, revisão de moto, Vila Velha, Espírito Santo, troca de óleo moto, freio moto">
+    
+    <!-- Open Graph / Compartilhamento de Link -->
+    <meta property="og:title" content="Matheus Motopeças e Mecânica | Vila Velha - ES">
+    <meta property="og:description" content="Manutenção especializada de motocicletas, revisões preventivas completas e venda de peças em Vila Velha - ES.">
+    <meta property="og:image" content="img/logomthor.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,600;0,700;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org - Negócio Local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MotorcycleRepair",
+      "name": "Matheus Motopeças e Mecânica",
+      "image": "img/logomthor.png",
+      "telephone": "+5528999252777",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Ivan Neiva Neves, nº 09, Residencial Coqueiral",
+        "addressLocality": "Vila Velha",
+        "addressRegion": "ES",
+        "postalCode": "29102-850",
+        "addressCountry": "BR"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "08:00"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- Brand Logo -->
+            <a href="#inicio" class="logo-link">
+                <img src="img/logomthor.png" alt="Matheus Motopeças e Mecânica" class="nav-logo-img">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre nós</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#planos" class="nav-link">Planos de Revisão</a>
+                <a href="#pecas" class="nav-link">Peças & Acessórios</a>
+                <a href="#localizacao" class="nav-link">Localização</a>
+            </nav>
+
+            <!-- CTA Header -->
+            <div class="header-cta">
+                <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Conheci%20a%20Matheus%20Motope%C3%A7as%20e%20Mec%C3%A2nica%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="btn btn-primary btn-sm cta-desktop">
+                    <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+                </a>
+                <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Conheci%20a%20Matheus%20Motope%C3%A7as%20e%20Mec%C3%A2nica%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="whatsapp-nav-mobile" aria-label="Agendar pelo WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <button id="mobile-menu-btn" class="mobile-toggle" aria-label="Abrir Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <div class="mobile-menu-logo">
+                <img src="img/logomthor.png" alt="Matheus Motopeças e Mecânica">
+            </div>
+            <a href="#inicio" class="mobile-link">Início</a>
+            <a href="#sobre" class="mobile-link">Sobre nós</a>
+            <a href="#servicos" class="mobile-link">Serviços</a>
+            <a href="#planos" class="mobile-link">Planos de Revisão</a>
+            <a href="#pecas" class="mobile-link">Peças & Acessórios</a>
+            <a href="#localizacao" class="mobile-link">Localização</a>
+            <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Conheci%20a%20Matheus%20Motope%C3%A7as%20e%20Mec%C3%A2nica%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="btn btn-primary text-center mt-2">
+                <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="badge">
+                <i class="fas fa-map-marker-alt"></i> Vila Velha - Espírito Santo
+            </div>
+            <h1 class="hero-title">
+                Sua moto merece cuidado de <span class="highlight">quem entende.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Manutenção especializada, peças de qualidade e serviços completos para manter sua motocicleta sempre pronta para a próxima jornada.
+            </p>
+            <div class="hero-actions">
+                <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20da%20minha%20moto." target="_blank" class="btn btn-primary btn-lg">
+                    <i class="fab fa-whatsapp"></i> Agendar Manutenção
+                </a>
+                <a href="#servicos" class="btn btn-outline btn-lg">
+                    Conhecer Nossos Serviços <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-wrench trust-icon"></i>
+                    <div>
+                        <h4>Mecânica Especializada</h4>
+                        <p>Técnicos qualificados</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt trust-icon"></i>
+                    <div>
+                        <h4>Revisões Preventivas</h4>
+                        <p>Inspeção minuciosa</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-cog trust-icon"></i>
+                    <div>
+                        <h4>Peças & Acessórios</h4>
+                        <p>Componentes de qualidade</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="section section-dark">
+        <div class="container">
+            <div class="grid grid-2 items-center">
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80" alt="Mecânico trabalhando em motocicleta" class="about-img">
+                    <div class="about-badge">
+                        <span class="about-badge-title">Vila Velha - ES</span>
+                        <span class="about-badge-sub">Atendimento de Excelência</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="section-tag">Sobre Nós</span>
+                    <h2 class="section-title">Conheça a Matheus Motopeças e Mecânica</h2>
+                    <p class="section-desc mb-6">
+                        Somos uma empresa especializada em manutenção de motocicletas, oferecendo serviços mecânicos, revisões preventivas e comercialização de peças e acessórios. Nosso compromisso é proporcionar segurança, qualidade e confiança para cada motociclista.
+                    </p>
+                    <div class="grid grid-2 gap-4">
+                        <div class="feature-card">
+                            <i class="fas fa-user-check feature-card-icon"></i>
+                            <div>
+                                <h4 class="feature-card-title">Atendimento Especializado</h4>
+                                <p class="feature-card-desc">Foco total no diagnóstico preciso.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-award feature-card-icon"></i>
+                            <div>
+                                <h4 class="feature-card-title">Compromisso com a Qualidade</h4>
+                                <p class="feature-card-desc">Processos rigorosos de manutenção.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-tools feature-card-icon"></i>
+                            <div>
+                                <h4 class="feature-card-title">Manutenção Preventiva</h4>
+                                <p class="feature-card-desc">Evita desgastes e custos elevados.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-motorcycle feature-card-icon"></i>
+                            <div>
+                                <h4 class="feature-card-title">Para Diversos Modelos</h4>
+                                <p class="feature-card-desc">Soluções sob medida para sua moto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Oferecidos -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="section-tag">Nossa Especialidade</span>
+                <h2 class="section-title">Serviços Oferecidos</h2>
+                <p class="section-desc">Soluções completas com equipamentos modernos e mão de obra qualificada para sua segurança nas ruas e estradas.</p>
+            </div>
+
+            <div class="grid grid-3 gap-6">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                    <h3 class="service-title">Mecânica Geral</h3>
+                    <p class="service-desc">Manutenção e reparos completos em diferentes sistemas da motocicleta, garantindo alto desempenho.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Mec%C3%A2nica%20Geral." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3 class="service-title">Revisão Preventiva</h3>
+                    <p class="service-desc">Inspeção detalhada dos principais componentes para identificar desgastes precoces e evitar falhas inesperadas.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Revis%C3%A3o%20Preventiva." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-oil-can"></i></div>
+                    <h3 class="service-title">Troca de Óleo</h3>
+                    <p class="service-desc">Substituição do óleo lubrificante e verificação minuciosa dos filtros e componentes de lubrificação.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Troca%20de%20%C3%93leo." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-stop-circle"></i></div>
+                    <h3 class="service-title">Sistema de Freios</h3>
+                    <p class="service-desc">Inspeção, substituição de pastilhas, lonas, fluido e ajuste geral para garantir frenagens precisas e seguras.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Sistema%20de%20Freios." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-compress-arrows-alt"></i></div>
+                    <h3 class="service-title">Suspensão</h3>
+                    <p class="service-desc">Inspeção e manutenção preventiva/corretiva da suspensão dianteira (bengalas) e traseira para maior estabilidade.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Suspens%C3%A3o." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                    <h3 class="service-title">Sistema Elétrico</h3>
+                    <p class="service-desc">Diagnóstico preciso em bateria, estator, sistema de carga, iluminação e injeção eletrônica.</p>
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20Sistema%20El%C3%A9trico." target="_blank" class="btn btn-outline btn-full">Solicitar Orçamento</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos de Revisão -->
+    <section id="planos" class="section section-dark">
+        <div class="container">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="section-tag">Manutenção Programada</span>
+                <h2 class="section-title">Planos de Revisão</h2>
+                <p class="section-desc">Escolha o nível ideal de inspeção para a sua motocicleta. Transparência total em cada etapa do serviço.</p>
+            </div>
+
+            <div class="grid grid-3 gap-8 items-start">
+                
+                <!-- PLANO 1: BÁSICA -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <span class="plan-subtitle">Manutenção Preventiva</span>
+                        <h3 class="plan-title">Revisão Básica</h3>
+                        <p class="plan-desc">Indicada para manutenção preventiva rotineira e inspeção geral dos componentes essenciais.</p>
+                    </div>
+                    
+                    <button class="plan-toggle-btn" onclick="togglePlan('plan-1', this)">
+                        <span>Ver lista de itens inclusos</span>
+                        <i class="fas fa-chevron-down icon-arrow"></i>
+                    </button>
+
+                    <div id="plan-1" class="plan-content hidden">
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Óleo e Lubrificação</h5>
+                            <ul class="plan-list">
+                                <li>Troca do óleo do motor</li>
+                                <li>Troca do filtro de óleo (se aplicável)</li>
+                                <li>Lubrificação e ajuste da corrente</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Pneus e Rodas</h5>
+                            <ul class="plan-list">
+                                <li>Calibragem e verificação de desgaste/pressão</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Freios & Cabos</h5>
+                            <ul class="plan-list">
+                                <li>Inspeção de pastilhas, lonas e fluido de freio</li>
+                                <li>Ajuste de folga e inspeção dos cabos</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Sistema Elétrico & Geral</h5>
+                            <ul class="plan-list">
+                                <li>Teste de bateria, carga, iluminação e buzina</li>
+                                <li>Inspeção de vazamentos e aperto de parafusos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20a%20Revis%C3%A3o%20B%C3%A1sica%20para%20minha%20motocicleta." target="_blank" class="btn btn-outline btn-full mt-6">
+                        Solicitar Revisão Básica
+                    </a>
+                </div>
+
+                <!-- PLANO 2: INTERMEDIÁRIA -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <span class="plan-subtitle">Manutenção Detalhada</span>
+                        <h3 class="plan-title">Revisão Intermediária</h3>
+                        <p class="plan-desc">Ideal para quem busca verificação profunda de sistemas internos e componentes vitais.</p>
+                    </div>
+
+                    <button class="plan-toggle-btn" onclick="togglePlan('plan-2', this)">
+                        <span>Ver lista de itens inclusos</span>
+                        <i class="fas fa-chevron-down icon-arrow"></i>
+                    </button>
+
+                    <div id="plan-2" class="plan-content hidden">
+                        <p class="plan-includes-all"><i class="fas fa-check-circle"></i> Inclui TODOS os itens da Revisão Básica +</p>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Motor & Alimentação</h5>
+                            <ul class="plan-list">
+                                <li>Troca da vela de ignição</li>
+                                <li>Limpeza/troca do filtro de ar e combustível</li>
+                                <li>Limpeza do corpo de borboleta e marcha lenta</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Transmissão & Freios</h5>
+                            <ul class="plan-list">
+                                <li>Limpeza completa da transmissão e lubrificação</li>
+                                <li>Sangria e troca do fluido de freio</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Direção, Suspensão & Eletrônica</h5>
+                            <ul class="plan-list">
+                                <li>Verificação de rolamentos e amortecedores</li>
+                                <li>Verificação de arrefecimento e mangueiras</li>
+                                <li>Leitura com scanner / injeção eletrônica</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20a%20Revis%C3%A3o%20Intermedi%C3%A1ria%20para%20minha%20motocicleta." target="_blank" class="btn btn-outline btn-full mt-6">
+                        Solicitar Revisão Intermediária
+                    </a>
+                </div>
+
+                <!-- PLANO 3: PREMIUM (DESTACADO) -->
+                <div class="plan-card plan-card-featured">
+                    <div class="featured-badge">RECOMENDADO</div>
+                    <div class="plan-header">
+                        <span class="plan-subtitle-featured">Avaliação Aprofundada</span>
+                        <h3 class="plan-title">Revisão Completa Premium</h3>
+                        <p class="plan-desc">A mais completa inspecção técnica do mercado. Cobre motor, chassi, suspensão e eletrônica.</p>
+                    </div>
+
+                    <button class="plan-toggle-btn" onclick="togglePlan('plan-3', this)">
+                        <span>Ver lista completa de itens</span>
+                        <i class="fas fa-chevron-down icon-arrow"></i>
+                    </button>
+
+                    <div id="plan-3" class="plan-content hidden">
+                        <p class="plan-includes-all"><i class="fas fa-check-circle"></i> Inclui TODOS os serviços da Básica e Intermediária +</p>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Motor Avançado</h5>
+                            <ul class="plan-list">
+                                <li>Regulagem de válvulas e medição de compressão</li>
+                                <li>Inspeção de corrente de comando e tensionador</li>
+                                <li>Limpeza do bico injetor e bomba de combustível</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Suspensão & Freios Avançados</h5>
+                            <ul class="plan-list">
+                                <li>Troca de óleo e retentores das bengalas</li>
+                                <li>Limpeza de pinças e lubrificação de pinos</li>
+                                <li>Troca do kit relação e inspeção da embreagem</li>
+                            </ul>
+                        </div>
+                        <div class="plan-group">
+                            <h5 class="plan-group-title">Chassi, Elétrica & Entrega</h5>
+                            <ul class="plan-list">
+                                <li>Reaperto geral com torque especificado</li>
+                                <li>Teste de estator, regulador e chicote</li>
+                                <li>Teste de rodagem + Relatório Completo</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20a%20Revis%C3%A3o%20Premium%20para%20minha%20motocicleta." target="_blank" class="btn btn-primary btn-full mt-6">
+                        Solicitar Revisão Premium
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Observação Importante -->
+            <div class="plan-notice">
+                <i class="fas fa-info-circle text-gold"></i>
+                <p>Os serviços realizados podem variar conforme o modelo, ano e condições da motocicleta. Itens que necessitem de substituição de peças ou manutenção adicional serão apresentados ao cliente para prévia aprovação.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peças e Acessórios -->
+    <section id="pecas" class="section">
+        <div class="container">
+            <div class="grid grid-2 items-center">
+                <div>
+                    <span class="section-tag">Loja Especializada</span>
+                    <h2 class="section-title">Tudo o que sua moto precisa em um só lugar.</h2>
+                    <p class="section-desc mb-6">
+                        Trabalhamos com ampla linha de peças de reposição e componentes das melhores marcas para garantir durabilidade e rendimento máximo.
+                    </p>
+                    
+                    <div class="parts-grid">
+                        <div class="parts-item">
+                            <i class="fas fa-cog text-gold"></i>
+                            <span>Peças para Motor</span>
+                        </div>
+                        <div class="parts-item">
+                            <i class="fas fa-plug text-gold"></i>
+                            <span>Componentes Elétricos</span>
+                        </div>
+                        <div class="parts-item">
+                            <i class="fas fa-dot-circle text-gold"></i>
+                            <span>Sistema de Freios</span>
+                        </div>
+                        <div class="parts-item">
+                            <i class="fas fa-oil-can text-gold"></i>
+                            <span>Lubrificantes e Óleos</span>
+                        </div>
+                        <div class="parts-item">
+                            <i class="fas fa-helmet-safety text-gold"></i>
+                            <span>Acessórios Diversos</span>
+                        </div>
+                        <div class="parts-item">
+                            <i class="fas fa-wrench text-gold"></i>
+                            <span>Itens de Manutenção</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20uma%20pe%C3%A7a%20ou%20acess%C3%B3rio%20para%20minha%20motocicleta." target="_blank" class="btn btn-primary btn-lg">
+                            <i class="fab fa-whatsapp"></i> Consultar Disponibilidade pelo WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="parts-image-grid">
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80" alt="Peças e ferramentas mecânicas" class="parts-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="section-tag">Por que nos escolher?</span>
+                <h2 class="section-title">Nossos Diferenciais</h2>
+            </div>
+
+            <div class="grid grid-4 gap-6">
+                <div class="diff-card">
+                    <div class="diff-icon"><i class="fas fa-user-shield"></i></div>
+                    <h4 class="diff-title">Atendimento Especializado</h4>
+                    <p class="diff-desc">Equipe pronta para entender exatamente a necessidade da sua moto.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-icon"><i class="fas fa-list-ol"></i></div>
+                    <h4 class="diff-title">Revisões Organizadas</h4>
+                    <p class="diff-desc">Planos estruturados por níveis de inspeção e clareza nos processos.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-icon"><i class="fas fa-tools"></i></div>
+                    <h4 class="diff-title">Soluções Completas</h4>
+                    <p class="diff-desc">Da mecânica pesada ao ajuste elétrico fino em um único local.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-icon"><i class="fas fa-store"></i></div>
+                    <h4 class="diff-title">Peças & Acessórios</h4>
+                    <p class="diff-desc">Agilidade na substituição de componentes sem perder a qualidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização e Contato -->
+    <section id="localizacao" class="section">
+        <div class="container">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="section-tag">Venha nos Visitar</span>
+                <h2 class="section-title">Estamos esperando por você!</h2>
+            </div>
+
+            <div class="grid grid-2 gap-8 items-start">
+                <!-- Informações -->
+                <div class="contact-card">
+                    <h3 class="contact-brand">Matheus Motopeças e Mecânica</h3>
+                    
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div>
+                                <strong>Endereço Principal:</strong>
+                                <p>Rua Ivan Neiva Neves, nº 09, Residencial Coqueiral<br>Vila Velha - ES, CEP: 29102-850</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fab fa-whatsapp contact-icon"></i>
+                            <div>
+                                <strong>WhatsApp:</strong>
+                                <p>(28) 99925-2777</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <div>
+                                <strong>Horário de Atendimento:</strong>
+                                <p>Segunda a Sábado, a partir das 08h</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fab fa-instagram contact-icon"></i>
+                            <div>
+                                <strong>Instagram Oficial:</strong>
+                                <p>@matheus_motopecas_</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="https://maps.google.com/?q=Rua+Ivan+Neiva+Neves,+09,+Residencial+Coqueiral,+Vila+Velha+-+ES" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-directions"></i> Como Chegar
+                        </a>
+                        <a href="https://wa.me/5528999252777" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                        </a>
+                        <a href="https://www.instagram.com/matheus_motopecas_/" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-instagram"></i> Seguir no Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2956.507255776548!2d-40.30785872584423!3d-20.35450685166572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81601695cd5b3%3A0xacddbd0bee6981d1!2sRua%20Ivan%20Neiva%20Neves%2C%2009%20-%20Res.%20Coqueiral%2C%20Vila%20Velha%20-%20ES%2C%2029102-850!5e1!3m2!1spt-BR!2sbr!4v1793883065182!5m2!1spt-BR!2sbr" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Localização Matheus Motopeças"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5528999252777?text=Ol%C3%A1!%20Conheci%20a%20Matheus%20Motope%C3%A7as%20e%20Mec%C3%A2nica%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" class="whatsapp-float" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo-link mb-4">
+                        <img src="img/logomthor.png" alt="Matheus Motopeças e Mecânica" class="nav-logo-img">
+                    </div>
+                    <p class="footer-text">Oficina especializada em manutenção de motocicletas, revisões completas e venda de peças de alta qualidade em Vila Velha - ES.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#planos">Planos de Revisão</a></li>
+                        <li><a href="#pecas">Peças & Acessórios</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li><i class="fab fa-whatsapp text-gold mr-2"></i> (28) 99925-2777</li>
+                        <li><i class="fab fa-instagram text-gold mr-2"></i> @matheus_motopecas_</li>
+                        <li><i class="fas fa-map-marker-alt text-gold mr-2"></i> Vila Velha - ES</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Atendimento</h4>
+                    <p class="footer-text">Segunda a Sábado<br>A partir das 08h</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Matheus Motopeças e Mecânica. Todos os direitos reservados.</p>
+                <p class="footer-motto">Matheus Motopeças e Mecânica — Cuidando da sua moto para você ir mais longe.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Customizado -->
+    <script src="script.js"></script>
+</body>
+</html>
